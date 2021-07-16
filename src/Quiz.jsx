@@ -10,7 +10,7 @@ const Quiz = () => {
 
     function getData() {
 
-        const url = 'https://opentdb.com/api.php?amount=1&type=multiple';
+        const url = 'https://opentdb.com/api.php?amount=1&category=18&type=multiple';
 
         const o1 = document.getElementById('o1');
         const i1 = document.getElementById('i1');
